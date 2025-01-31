@@ -1,5 +1,7 @@
 # Financial Data - MCP Server
 
+[![smithery badge](https://smithery.ai/badge/findata-mcp-server)](https://smithery.ai/server/findata-mcp-server)
+
 This is an MCP server that provides access to the Alpha Vantage API, allowing stock data retrieval to be used as context to LLMs.
 
 ## Available Features
@@ -10,6 +12,15 @@ This is an MCP server that provides access to the Alpha Vantage API, allowing st
 
 ## Setup
 
+### Installing via Smithery
+
+To install Financial Data Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/findata-mcp-server):
+
+```bash
+npx -y @smithery/cli install findata-mcp-server --client claude
+```
+
+### Manual Installation
 ```bash
 npm install findata-mcp-server
 ```
